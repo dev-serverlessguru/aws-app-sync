@@ -604,7 +604,7 @@ myAppSyncApi:
         config:
           awsSecretStoreArn: 'arn:aws:secretsmanager:us-east-1:123456789123:secret:rds-db-credentials/cluster-ABCDEFGHI/admin-aBc1e2'
           databaseName: 'mydatabase'
-          dbClusterIdentifier: 'arn:aws:rds:us-east-1:123456789123:cluster:my-serverless-aurora-postgres-1'
+          dbClusterIdentifier: 'my-serverless-aurora-postgres-1'
           schema: 'public'
 
     mappingTemplates:
